@@ -387,4 +387,7 @@ searchButton.addEventListener("click", () => {
     );
     pokemons.innerHTML = "";
     setPokemonCards(filtered);
+    if(pokemons.innerHTML == ""){
+        pokemons.innerHTML = "<p id='large-texts'>Sorry! The pokemon you searched has not been added yet <br>or you have spelt it wrong!</p>";
+    }
 });
