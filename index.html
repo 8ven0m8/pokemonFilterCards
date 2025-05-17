@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="search"><input id="search-box" type="text" placeholder="search for pokemons"></div>
+            <div id="search-button"><button id="actual-search-button">🔍</button></div>
+            <div id="filter">Filter: 
+                <select id="select">
+                    <option value="All">Show All</option>
+                    <option value="Normal" selected>Normal</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Water">Water</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Ice">Ice</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value="Poison">Poison</option>
+                    <option value="Ground">Ground</option>
+                    <option value="Flying">Flying</option>
+                    <option value="Psychic">Psychic</option>
+                    <option value="Bug">Bug</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Ghost">Ghost</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Steel">Steel</option>
+                    <option value="Fairy">Fairy</option>
+                    <!-- Common Dual Types -->
+                    <option value="Grass/Poison">Grass/Poison</option>
+                    <option value="Fire/Flying">Fire/Flying</option>
+                    <option value="Bug/Flying">Bug/Flying</option>
+                    <option value="Bug/Poison">Bug/Poison</option>
+                    <option value="Normal/Flying">Normal/Flying</option>
+                    <option value="Poison/Ground">Poison/Ground</option>
+                    <option value="Water/Ice">Water/Ice</option>
+                    <option value="Rock/Ground">Rock/Ground</option>
+                    <option value="Electric/Flying">Electric/Flying</option>
+                    <option value="Fire/Rock">Fire/Rock</option>
+                    <option value="Psychic/Fairy">Psychic/Fairy</option>
+                    <option value="Steel/Fairy">Steel/Fairy</option>
+                    <option value="Dark/Ghost">Dark/Ghost</option>
+                    <option value="Dragon/Flying">Dragon/Flying</option>
+                    <option value="Fighting/Flying">Fighting/Flying</option>
+                    <option value="Rock/Water">Rock/Water</option>
+                    <option value="Ghost/Poison">Ghost/Poison</option>
+                    <option value="Electric/Steel">Electric/Steel</option>
+                </select>
+            </div>
+        </div>
+        <div id="pokemons">
+            <p id="large-texts">Search For Pokemons or Filter it out ;)</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
